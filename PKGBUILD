@@ -1,0 +1,35 @@
+#
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+#
+
+pkgname=Warp
+pkgver=2024.02.06.08.02.stable_01
+pkgrel=1
+pkgdesc="Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster."
+url="https://www.warp.dev/"
+arch=('any')
+license=('')
+makedepends=()
+
+source=('warp')
+
+sha256sums=('SKIP')
+
+prepare() {
+
+	cd "${srcdir}"
+	
+	# Extract the AppImage #
+	./warp --appimage-extract
+
+}
+
+
+package() {
+
+	install -Dm 644 ${srcdir}/squashfs-root/usr/share/applications/dev.warp.Warp.desktop	        ${pkgdir}/usr/share/applications/dev.warp.Warp.desktop
+	install -Dm 755 ${srcdir}/squashfs-root/usr/bin/warp   		                                    ${pkgdir}/usr/bin/warp
+	install -Dm 755 ${srcdir}/squashfs-root/usr/bin/crashpad_handler   		                        ${pkgdir}/usr/bin/crashpad_handler
+	install -Dm 644 ${srcdir}/squashfs-root/usr/share/icons/hicolor/512x512/apps/dev.warp.Warp.png  ${pkgdir}/usr/share/pixmaps/dev.warp.Warp.png
+
+}
