@@ -3,7 +3,7 @@
 #
 
 pkgname=Warp
-pkgver=0.2024.02.16.17.24.stable_00
+pkgver=0.2024.02.20.08.01.stable_01
 pkgrel=2
 pkgdesc="Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster."
 url="https://www.warp.dev/"

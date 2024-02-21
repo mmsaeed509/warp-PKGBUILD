@@ -3,7 +3,7 @@ background: "#030001"
 accent: "#420e11"
 foreground: "#ffffff"
 background_image:
-  path: /usr/share/backgrounds/MSI.jpg
+  path: /usr/share/backgrounds/msi/MSI.jpg
   opacity: 30
 details: darker
 terminal_colors:
