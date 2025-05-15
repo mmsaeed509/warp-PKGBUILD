@@ -1,0 +1,28 @@
+---
+background: "#090a0a"
+accent: "#32a369"
+foreground: "#dfe1e1"
+background_image:
+  path: imgs/acer_predator_helios_300.jpg
+  opacity: 30
+details: darker
+terminal_colors:
+  normal:
+    black: "#191c1c"
+    red: "#247270"
+    green: "#2A817E"
+    yellow: "#2E908D"
+    blue: "#35A9A4"
+    magenta: "#4AB3B0"
+    cyan: "#9BADAC"
+    white: "#dfe1e1"
+  bright:
+    black: "#9c9d9d"
+    red: "#247270"
+    green: "#2A817E"
+    yellow: "#2E908D"
+    blue: "#35A9A4"
+    magenta: "#4AB3B0"
+    cyan: "#9BADAC"
+    white: "#dfe1e1"
+name: Acer Predator

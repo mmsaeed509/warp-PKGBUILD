@@ -1,0 +1,30 @@
+name: Smoke
+accent: '#1D9660'
+cursor: '#a0cec0'
+background: '#0B1317'
+details: darker
+foreground: '#a0cec0'
+
+background_image:
+  path: imgs/mortal-kombat-x-Smoke.jpg
+  opacity: 10
+
+terminal_colors:
+  bright:
+    black: '#709086'
+    blue: '#265E51'
+    cyan: '#575F5C'
+    green: '#AB535A'
+    magenta: '#1D9660'
+    red: '#4CA465'
+    white: '#a0cec0'
+    yellow: '#AB9178'
+  normal:
+    black: '#0B1317'
+    blue: '#265E51'
+    cyan: '#575F5C'
+    green: '#AB535A'
+    magenta: '#1D9660'
+    red: '#4CA465'
+    white: '#a0cec0'
+    yellow: '#AB9178'
